@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+ }
+ 
+ 
+ .form{
+     width: 30%;
+     background-color: #dcf658;
+     color: black;
+     display: flex;
+     flex-direction: column;
+     padding: 20px;
+ 
+ }
+ .form input{
+   padding: 5px;
+   margin-top: 6px;
+
+ }
+ .submit{
+    align-self: center;
+    padding: 10px;
+    background-color: #060606;
+    color: white;
+    margin:20px 0 10px 0 ;
+    border-radius: 6px;
+    border: none;
+ }
+ .wallet{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    padding: 10px;
+    background-color: #000b87;
+    color: aliceblue;
+    border: none;
+ 
+ }
+ .showData{
+   position: absolute;
+    left: 5%;
+    bottom: 5%;
+    padding: 10px;
+    background-color: #008785;
+    color: aliceblue;
+    border: none;
+ }
